@@ -1,0 +1,21 @@
+{
+  "donation": {
+    "url": "https://love.alipay.com/donate/itemDetail.htm?name=2016051810442526101",
+    "amount": 0.01,
+    "totalTimes": 40,
+    "minDelay": 5000,
+    "maxDelay": 5000
+  },
+  "browser": {
+    "headless": false,
+    "slowMo": 100,
+    "timeout": 30000
+  },
+  "logging": {
+    "level": "info",
+    "file": "data/donation.log"
+  },
+  "storage": {
+    "file": "data/execution-log.json"
+  }
+}
